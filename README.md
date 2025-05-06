@@ -10,7 +10,5 @@
 例如：
 
 ```
-docker run -e EUREKA_INSTANCE_HOSTNAME=eureka-0 \
-           -e EUREKA_PEERS=http://eureka-0:8761/eureka/,http://eureka-1:8761/eureka/ \
-           -p 8761:8761 your-image
+docker-compose up --build
 ```
