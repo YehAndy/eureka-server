@@ -1,4 +1,4 @@
-/target
+/eureka-server/target
 /.idea
 *.iml
 *.log
